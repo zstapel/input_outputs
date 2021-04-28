@@ -4,3 +4,25 @@ body {
     height: 100%;
     background-repeat: no-repeat;
 }
+
+#door{
+	position: absolute;
+	top: 280px;
+    left: 1088px;
+    width: 19%;
+}
+
+#planter{
+	position: absolute;
+	width: 20%;
+    top: 169px;
+    left: 704px;
+}
+
+#person{
+	position: absolute;
+	width: 17%;
+    top: 248px;
+    left: 344px;
+
+}

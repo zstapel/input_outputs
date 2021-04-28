@@ -4,3 +4,40 @@ body {
     height: 100%;
     background-repeat: no-repeat;
 }
+
+#vasebreak{
+	position: absolute;
+	width: 10%;
+    top: 294px;
+    left: -50px;
+}
+
+#wineglass_empty2{
+	position: absolute;
+	width: 14%;
+    top: 359px;
+    left: 404px;
+}
+
+#wineglass_full2{
+	position: absolute;
+	width: 14%;
+    top: 356px;
+    left: 406px;
+    visibility: hidden;
+}
+
+#bowl_empty{
+	position: absolute;
+	width: 11%;
+    top: 359px;
+    left: 726px;
+}
+
+#bowl_full{
+	position: absolute;
+	width: 12%;
+    top: 345px;
+    left: 716px;
+    visibility: hidden;
+}

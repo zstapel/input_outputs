@@ -4,3 +4,25 @@ body {
     height: 100%;
     background-repeat: no-repeat;
 }
+
+#mousehole_empty{
+	position: absolute;
+	width: 12%;
+    top: 690px;
+    left: 90px;
+}
+
+#mousehole_mouse{
+	position: absolute;
+	width: 12%;
+    top: 694px;
+    left: 95px;
+    visibility: hidden;
+}
+
+#jukebox{
+	position: absolute;
+	width: 8%;
+    top: 396px;
+    left: 755px;
+}

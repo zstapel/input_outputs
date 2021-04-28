@@ -4,3 +4,46 @@ body {
     height: 100%;
     background-repeat: no-repeat;
 }
+
+#light_on{
+	position: absolute;
+	top: -62px;
+    left: 320px;
+}
+
+#mirror_clear{
+	position: absolute;
+	width: 12%;
+    top: 339px;
+    left: 431px;
+}
+
+#wineglass_empty1{
+	position: absolute;
+	width: 20%;
+    top: 483px;
+    left: 183px;
+}
+
+#mirror_ghost{
+	position: absolute;
+	width: 12%;
+    top: 334px;
+    left: 431px;
+    visibility: hidden;
+}
+
+#wineglass_full1{
+	position: absolute;
+	width: 21%;
+    top: 483px;
+    left: 176px;
+    visibility: hidden;
+}
+
+#light_off{
+	position: absolute;
+	top: 50px;
+    left: 397px;
+    width: 15%;
+    visibility: hidden;

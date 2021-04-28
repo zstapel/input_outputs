@@ -4,3 +4,33 @@ body {
     height: 100%;
     background-repeat: no-repeat;
 }
+
+#fish_regular{
+	position: absolute;
+	width: 17%;
+    top: 299px;
+    left: -23px;
+}
+
+#fish_bubbles{
+	position: absolute;
+	width: 17%;
+    top: 288px;
+    left: -11px;
+    visibility: hidden;
+}
+
+#speaker1{
+	position: absolute;
+    width: 14%;
+    right: -43px;
+    top: -57px;
+
+}
+
+#money{
+	position: absolute;
+	width: 14%;
+    left: 430px;
+    top: 440px;
+}

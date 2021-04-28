@@ -4,3 +4,40 @@ body {
     height: 100%;
     background-repeat: no-repeat;
 }
+
+#stool{
+	position: absolute;
+	width: 13%;
+    left: 550px;
+    top: 585px;
+}
+
+#vase_empty{
+	position: absolute;
+	width: 13%;
+    left: 682px;
+    top: 400px;
+}
+
+#vase_full{
+	position: absolute;
+	width: 13%;
+    left: 675px;
+    top: 400px;
+    visibility: hidden;
+}
+
+#platter_empty{
+	position: absolute;
+    width: 12%;
+    right: 241px;
+    top: 441px;
+}
+
+#platter_full{
+	position: absolute;
+    width: 12%;
+    right: 238px;
+    top: 436px;
+    visibility: hidden;
+}

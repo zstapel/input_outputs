@@ -4,3 +4,25 @@ body {
     height: 100%;
     background-repeat: no-repeat;
 }
+
+#chair{
+	position: absolute;
+	width: 22%;
+    left: 406px;
+    top: 439px;
+}
+
+#cup_empty{
+	position: absolute;
+	width: 14%;
+    right: 227px;
+    top: 520px;
+}
+
+#cup_full{
+	position: absolute;
+	width: 14%;
+    right: 224px;
+    top: 520px;
+    visibility: hidden;
+}
