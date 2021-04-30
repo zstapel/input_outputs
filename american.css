@@ -8,21 +8,21 @@ body {
 #mousehole_empty{
 	position: absolute;
 	width: 12%;
-    top: 690px;
-    left: 90px;
+    top: 81%;
+    left: 6%;
 }
 
 #mousehole_mouse{
 	position: absolute;
 	width: 12%;
-    top: 694px;
-    left: 95px;
-    visibility: hidden;
+    top: 81%;
+    left: 6.25%;
+    display: none;
 }
 
 #jukebox{
 	position: absolute;
 	width: 8%;
-    top: 396px;
-    left: 755px;
+    top: 46.5%;
+    right: 37%;
 }

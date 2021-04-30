@@ -8,29 +8,29 @@ body {
 #fish_regular{
 	position: absolute;
 	width: 17%;
-    top: 299px;
-    left: -23px;
+    top: 35%;
+    left: -1.75%;
 }
 
 #fish_bubbles{
 	position: absolute;
 	width: 17%;
-    top: 288px;
-    left: -11px;
-    visibility: hidden;
+    top: 34%;
+    left: -0.65%;
+    display: none;
 }
 
 #speaker1{
 	position: absolute;
     width: 14%;
-    right: -43px;
-    top: -57px;
+    right: -3.5%;
+    top: -5%;
 
 }
 
 #money{
 	position: absolute;
 	width: 14%;
-    left: 430px;
-    top: 440px;
+    left: 30%;
+    top: 52%;
 }

@@ -7,43 +7,46 @@ body {
 
 #light_on{
 	position: absolute;
-	top: -62px;
-    left: 320px;
+	top: -7%;
+    width: 26%;
+    left: 23.5%;
 }
 
 #mirror_clear{
 	position: absolute;
 	width: 12%;
-    top: 339px;
-    left: 431px;
+    top: 40%;
+    left: 31.5%;
+
 }
 
 #wineglass_empty1{
 	position: absolute;
 	width: 20%;
-    top: 483px;
-    left: 183px;
+    top: 56.5%;
+    left: 13.5%;
 }
 
 #mirror_ghost{
 	position: absolute;
-	width: 12%;
-    top: 334px;
-    left: 431px;
-    visibility: hidden;
+	width: 12%; 
+    top: 39.5%;
+    left: 31.5%;
+    display: none;
 }
 
 #wineglass_full1{
 	position: absolute;
 	width: 21%;
-    top: 483px;
-    left: 176px;
-    visibility: hidden;
+    top: 56.65%;
+    left: 12.75%;
+    display: none;
 }
 
 #light_off{
 	position: absolute;
-	top: 50px;
-    left: 397px;
+	top: 6%;
+    left: 29%;
     width: 15%;
-    visibility: hidden;
+    display: none;
+}

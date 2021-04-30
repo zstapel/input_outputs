@@ -7,22 +7,23 @@ body {
 
 #door{
 	position: absolute;
-	top: 280px;
-    left: 1088px;
+	top: 32.75%;
+    right: 1.75%;
     width: 19%;
 }
 
 #planter{
 	position: absolute;
 	width: 20%;
-    top: 169px;
-    left: 704px;
+   	top: 20%;
+    left: 51%;
 }
 
 #person{
 	position: absolute;
 	width: 17%;
-    top: 248px;
-    left: 344px;
+    top: 28.75%;
+    left: 28%;
+
 
 }

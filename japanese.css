@@ -8,36 +8,36 @@ body {
 #stool{
 	position: absolute;
 	width: 13%;
-    left: 550px;
-    top: 585px;
+    left: 40%;
+    top: 68.5%;
 }
 
 #vase_empty{
 	position: absolute;
 	width: 13%;
-    left: 682px;
-    top: 400px;
+    left: 47%;
+    top: 47%;
 }
 
 #vase_full{
 	position: absolute;
 	width: 13%;
-    left: 675px;
-    top: 400px;
-    visibility: hidden;
+    left: 46.5%;
+    top: 46%;
+    display: none;
 }
 
 #platter_empty{
 	position: absolute;
     width: 12%;
-    right: 241px;
-    top: 441px;
+    right: 17%;
+    top: 51.5%;
 }
 
 #platter_full{
 	position: absolute;
     width: 12%;
-    right: 238px;
-    top: 436px;
-    visibility: hidden;
+    right: 16.5%;
+    top: 50.75%;
+    display: none;
 }
