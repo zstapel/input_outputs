@@ -1,6 +1,8 @@
 let e = document.getElementById("wineglass_empty2");
 let f = document.getElementById("bowl_empty");
 let g = document.getElementById("vasebreak");
+let b = document.getElementById("break");
+var breakIsPlaying = false;
 
 e.addEventListener("click", myFunction4)
 function myFunction4(){
@@ -15,4 +17,18 @@ function myFunction5(){
 g.addEventListener("click", myFunction6)
 function myFunction6(){
 	document.getElementById("vasebreak").style.display = "none";
+	b.play();
 }
+
+
+// g.addEventListener("click", myFunction)
+// function myFunction(){
+// 	if (breakIsPlaying){
+// 		breakIsPlaying = false;
+// 		b.pause();
+// 			} else {
+// 				breakIsPlaying = true;
+// 				b.play();
+// 			}
+// 		}
+	
