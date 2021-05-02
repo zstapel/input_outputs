@@ -30,16 +30,16 @@ body {
 #mirror_ghost{
 	position: absolute;
 	width: 12%; 
-    top: 39.5%;
+    top: 39.35%;
     left: 31.5%;
     display: none;
 }
 
 #wineglass_full1{
 	position: absolute;
-	width: 21%;
-    top: 56.65%;
-    left: 12.75%;
+	width: 19%;
+    top: 59.65%;
+    left: 13.88%;
     display: none;
 }
 
