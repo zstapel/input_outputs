@@ -6,12 +6,7 @@ body {
 }
 
 @media only screen and (min-width: 812px) {
-  .large {
-  	display: inline-block;
-  }
-  .small {
-  	display: none;
-  }
+
 
 #mousehole_empty{
 	position: absolute;
@@ -37,13 +32,7 @@ body {
 }
 
 @media only screen and (max-width: 812px) {
-  .small {
-  	display: inline-block;
-  	width: 100%;
-  }
-  .large {
-  	display: none;
-  }
+
 
 
 #mousehole_empty{

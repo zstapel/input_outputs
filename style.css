@@ -19,12 +19,6 @@ li {
 }
 
 @media only screen and (min-width: 812px) {
-  .large {
-  	display: inline-block;
-  }
-  .small {
-  	display: none;
-  }
 
 h1 {
 	font-family: 'Barrio', cursive;
@@ -127,13 +121,6 @@ h1 {
 }
 
 @media only screen and (max-width: 812px) {
-  .small {
-  	display: inline-block;
-  	width: 100%;
-  }
-  .large {
-  	display: none;
-  }
 
   h1 {
 	font-family: 'Barrio', cursive;
