@@ -5,6 +5,13 @@ body {
     background-repeat: no-repeat;
 }
 
+@media only screen and (min-width: 812px) {
+  .large {
+  	display: inline-block;
+  }
+  .small {
+  	display: none;
+  }
 #stool{
 	position: absolute;
 	width: 13%;
@@ -40,4 +47,51 @@ body {
     right: 16.5%;
     top: 50.75%;
     display: none;
+}
+}
+
+@media only screen and (max-width: 812px) {
+  .small {
+  	display: inline-block;
+  	width: 100%;
+  }
+  .large {
+  	display: none;
+  }
+#stool{
+	position: absolute;
+	width: 13%;
+    left: 40%;
+    top: 40.5%;
+}
+
+#vase_empty{
+	position: absolute;
+	width: 13%;
+    left: 47%;
+    top: 28%;
+}
+
+#vase_full{
+	position: absolute;
+	width: 13%;
+    left: 46.5%;
+    top: 27.5%;
+    display: none;
+}
+
+#platter_empty{
+	position: absolute;
+    width: 12%;
+    right: 17%;
+    top: 30.5%;
+}
+
+#platter_full{
+	position: absolute;
+    width: 12%;
+    right: 16.5%;
+    top: 30.15%;
+    display: none;
+}
 }

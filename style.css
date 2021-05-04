@@ -4,12 +4,6 @@ body {
     background-repeat: no-repeat;
 }
 
-h1 {
-	font-family: 'Barrio', cursive;
-	font-size: 150px;
-	text-align: center;
-
-}
 
 a:link {
   text-decoration: none;
@@ -22,6 +16,22 @@ a:visited {
 
 li {
 	list-style-type: none;
+}
+
+@media only screen and (min-width: 812px) {
+  .large {
+  	display: inline-block;
+  }
+  .small {
+  	display: none;
+  }
+
+h1 {
+	font-family: 'Barrio', cursive;
+	font-size: 150px;
+	position: absolute;
+    margin-left: 25%;
+
 }
 
 #indian {
@@ -113,4 +123,114 @@ li {
   	position: absolute;
   	left: 930px;
     top: 460px;
+}
+}
+
+@media only screen and (max-width: 812px) {
+  .small {
+  	display: inline-block;
+  	width: 100%;
+  }
+  .large {
+  	display: none;
+  }
+
+  h1 {
+	font-family: 'Barrio', cursive;
+    font-size: 99px;
+    position: absolute;
+    margin-left: 20%;
+
+}
+
+#indian {
+	font-family: 'Barrio', cursive;
+	font-size: 31px;
+	padding: 6px 6px;
+  	margin:5px;
+  	background: #E0B35B;
+  	position: absolute;
+  	left: 15%;
+    top: 23%;
+
+}
+
+#medatranian {
+	font-family: 'Barrio', cursive;
+	font-size: 20px;
+	padding: 6px 6px;
+	padding-bottom: 19px;
+  	margin:5px;
+  	background: #89C6E5;
+  	position: absolute;
+    left: 30%;
+    top: 23%;
+}
+
+#chinese {
+	font-family: 'Barrio', cursive;
+    font-size: 32px;
+    padding: 6px 6px;
+    margin: 5px;
+    background: #D94E53;
+    position: absolute;
+    left: 50%;
+    top: 23%;
+}
+
+#american {
+	font-family: 'Barrio', cursive;
+    font-size: 33px;
+    padding: 6px 6px;
+    margin: 5px;
+    background: #5572B4;
+    position: absolute;
+    left: 69%;
+    top: 23%;
+}
+
+#mexican {
+	font-family: 'Barrio', cursive;
+	font-size: 32px;
+    padding: 6px 6px;
+    margin: 5px;
+    background: #D76947;
+    position: absolute;
+    left: 20%;
+    top: 30%;
+}
+
+#italian {
+	font-family: 'Barrio', cursive;
+	font-size: 33px;
+    padding: 6px 6px;
+    margin: 5px;
+    background: #D94E53;
+    position: absolute;
+    left: 40%;
+    top: 30%;
+}
+
+#thai {
+	font-family: 'Barrio', cursive;
+	font-size: 34px;
+    padding: 6px 6px;
+    margin: 5px;
+    background: #2C733C;
+    position: absolute;
+    left: 58%;
+    top: 30%;
+}
+
+#japanese {
+	font-family: 'Barrio', cursive;
+	font-size: 23px;
+    padding: 6px 6px;
+    padding-bottom: 19px;
+    margin: 5px;
+    background: #B91D12;
+    position: absolute;
+    left: 71%;
+    top: 30%;
+}
 }

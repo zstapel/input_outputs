@@ -5,6 +5,13 @@ body {
     background-repeat: no-repeat;
 }
 
+@media only screen and (min-width: 812px) {
+  .large {
+  	display: inline-block;
+  }
+  .small {
+  	display: none;
+  }
 #door{
 	position: absolute;
 	top: 32.75%;
@@ -26,4 +33,38 @@ body {
     left: 28%;
 
 
+}
+}
+
+@media only screen and (max-width: 812px) {
+  .small {
+  	display: inline-block;
+  	width: 100%;
+  }
+  .large {
+  	display: none;
+  }
+
+  #door{
+	position: absolute;
+	top: 19.45%;
+    right: 1.75%;
+    width: 19%;
+}
+
+#planter{
+	position: absolute;
+	width: 20%;
+   	top: 12%;
+    left: 51%;
+}
+
+#person{
+	position: absolute;
+	width: 17%;
+    top: 17.15%;
+    left: 28%;
+
+
+}
 }

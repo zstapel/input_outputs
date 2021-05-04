@@ -5,6 +5,14 @@ body {
     background-repeat: no-repeat;
 }
 
+@media only screen and (min-width: 812px) {
+  .large {
+  	display: inline-block;
+  }
+  .small {
+  	display: none;
+  }
+
 #light_on{
 	position: absolute;
 	top: -7%;
@@ -49,4 +57,61 @@ body {
     left: 29%;
     width: 15%;
     display: none;
+}
+}
+
+@media only screen and (max-width: 812px) {
+  .small {
+  	display: inline-block;
+  	width: 100%;
+  }
+  .large {
+  	display: none;
+  }
+
+#light_on{
+	position: absolute;
+    top: -3.75%;
+    width: 26%;
+    left: 23.5%;
+}
+
+#mirror_clear{
+	position: absolute;
+	width: 12%;
+    top: 24%;
+    left: 31.5%;
+
+}
+
+#wineglass_empty1{
+	position: absolute;
+	width: 20%;
+    top: 33.5%;
+    left: 13.5%;
+}
+
+#mirror_ghost{
+	position: absolute;
+	width: 12%; 
+	top: 23.45%;
+    left: 31.5%;
+    display: none;
+}
+
+#wineglass_full1{
+	position: absolute;
+	width: 19%;
+    top: 35.65%;
+    left: 13.88%;
+    display: none;
+}
+
+#light_off{
+	position: absolute;
+	top: 3.65%;
+    left: 29%;
+    width: 15%;
+    display: none;
+}
 }

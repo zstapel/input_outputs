@@ -5,6 +5,14 @@ body {
     background-repeat: no-repeat;
 }
 
+@media only screen and (min-width: 812px) {
+  .large {
+  	display: inline-block;
+  }
+  .small {
+  	display: none;
+  }
+
 #vasebreak{
 	position: absolute;
 	width: 10%;
@@ -41,4 +49,53 @@ body {
     top: 41.5%;
     right: 36.25%;
     display: none;
+}
+}
+
+@media only screen and (max-width: 812px) {
+  .small {
+  	display: inline-block;
+  	width: 100%;
+  }
+  .large {
+  	display: none;
+  }
+
+#vasebreak{
+	position: absolute;
+	width: 10%; 
+    top: 20%;
+    left: -4%;
+
+}
+
+#wineglass_empty2{
+	position: absolute;
+	width: 14%;
+    top: 24.5%;
+    left: 29.5%;
+}
+
+#wineglass_full2{
+	position: absolute;
+	width: 14%;
+    top: 24.5%;
+    left: 29.55%;
+    display: none;
+}
+
+#bowl_empty{
+	position: absolute;
+	width: 11%;
+    top: 25%;
+    right: 36%;
+}
+
+#bowl_full{
+	position: absolute;
+	width: 11%;
+    top: 24.75%;
+    right: 36.25%;
+    display: none;
+}
 }

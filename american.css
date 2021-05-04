@@ -5,6 +5,14 @@ body {
     background-repeat: no-repeat;
 }
 
+@media only screen and (min-width: 812px) {
+  .large {
+  	display: inline-block;
+  }
+  .small {
+  	display: none;
+  }
+
 #mousehole_empty{
 	position: absolute;
 	width: 12%;
@@ -25,4 +33,38 @@ body {
 	width: 8%;
     top: 46.5%;
     right: 37%;
+}
+}
+
+@media only screen and (max-width: 812px) {
+  .small {
+  	display: inline-block;
+  	width: 100%;
+  }
+  .large {
+  	display: none;
+  }
+
+
+#mousehole_empty{
+	position: absolute;
+	width: 12%;
+	top: 49%;
+    left: 6%;
+}
+
+#mousehole_mouse{
+	position: absolute;
+	width: 12%;
+    top: 49%;
+    left: 6.25%;
+    display: none;
+}
+
+#jukebox{
+	position: absolute;
+	width: 8%;
+    top: 27.5%;
+    right: 37%;
+}
 }

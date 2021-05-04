@@ -2,6 +2,7 @@
 let a = document.getElementById("mirror_clear");
 let b = document.getElementById("wineglass_empty1");
 let c = document.getElementById("light_on");
+let g = document.getElementById("mirror_ghost")
 
 a.addEventListener("click", myFunction)
 function myFunction(){
