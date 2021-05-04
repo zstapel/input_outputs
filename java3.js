@@ -1,6 +1,6 @@
 let a = document.getElementById("mousehole_empty");
 let j = document.getElementById("jukebox");
-var b = document.getElementById("bornInTheUSA")
+var b = document.getElementById("bornInTheUSA");
 var songIsPlaying = false;
 
 

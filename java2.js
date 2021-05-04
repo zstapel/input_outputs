@@ -17,12 +17,22 @@ function myFunction5(){
 g.addEventListener("click", myFunction6)
 function myFunction6(){
 	document.getElementById("vasebreak").style.display = "none";
+	breakIsPlaying = true;
 	b.play();
 }
 
-
-// g.addEventListener("click", myFunction)
-// function myFunction(){
+// g.addEventListener("click", myFunction1)
+// function myFunction1(){
+// 	if (breakIsPlaying){
+// 		breakIsPlaying = false;
+// 		b.pause();
+// 			} else {
+// 				breakIsPlaying = true;
+// 				b.play();
+// 			}
+// 		}
+// g.addEventListener("click", myFunction6)
+// function myFunction6(){
 // 	if (breakIsPlaying){
 // 		breakIsPlaying = false;
 // 		b.pause();
