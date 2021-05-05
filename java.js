@@ -30,6 +30,13 @@ function myFunction2(){
 
 c.addEventListener("click", myFunction3)
 function myFunction3(){
+const clear = document.getElementById("light_on")
+if (c.style.display === "none") {
+	c.style.display = "block";
+} else {
+	c.style.display = "none";
+}
+
 	document.getElementById("light_off").style.display = "block";
 	document.getElementById('light_on').style.display = "none";
 
